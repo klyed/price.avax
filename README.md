@@ -1,4 +1,4 @@
-This repository serves as the development and staging area for the KLYE.net site
+This repository serves as the development and staging area for the Price.Avax site
 
 Feel free to clone and modify this project to build your own sites off of
 
