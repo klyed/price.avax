@@ -1,0 +1,158 @@
+<html>
+<head>
+  <title>PRICE.AVAX v0.0.1</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+  <link rel="stylesheet" href="/css/styleshit.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/klyecon.ico">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <div id="particles-js">
+    <div id="menudiv">
+      <nav>
+        <ul class="menuroot sexyblackoutline">
+          <li class="menuthing "><a id="hire"  style="float: right;" onClick="" title="Hire Arrogant as a Freelance Software Engineer, Graphics Designer or Consulant">hire</a></li>
+          <li class="menuthing "><a id="directory"  style="float: right;" onClick="" title="Check out cool AVAX related links">links</a></li>
+          <li class="menuthing "><a id="directory"  style="float: right;" onClick="" title="Trade or Swap AVAX">exchanges</a></li>
+          <li class="menuthing "><a id="donate"  style="float: right;" onClick="" title="Make a Donation to the KLYE Empire">donate</a></li>
+          <li class="menuthing "><a id="about"  style="float: right;" onClick="" title="About the Developer">about</a></li>
+          <li class="menuthing hidden"><a id="menuburger" style="position: fixed; top: 0.7em; right: 1.1em;"><b><i class="fas   fa-fw fa-2x fa-bars"></i></b></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="mainthing">
+      <span id="bigthing">
+        <!--<sub id="officialtop">
+        Current Avalanche Prices:
+      </sub>
+      <br>--><span id="avaxprice">Loading...</span><br>
+      <span id="officialbottom">
+        Offical Exchange Price Aggregator of the Avalanche Network<br>
+      </span>
+    </span>
+  </div>
+</div>
+<footer>
+  <span id="totallylegitcopyright">©2022 PRICE.AVAX</span>
+</footer>
+</body>
+<script>
+particlesJS({
+  "particles": {
+    "number": {
+      "value": 6,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#1b1e34"
+    },
+    "shape": {
+      "type": "image",
+      "stroke": {
+        "width": 0,
+        "color": "#000"
+      },
+      "polygon": {
+        "nb_sides": 6
+      },
+      "image": {
+        "src": "/img/avax.png",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 0.7992007992007992,
+        "opacity_min": 0.1038961038961039,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 50,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 10,
+        "size_min": 40,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 200,
+      "color": "#ffffff",
+      "opacity": 1,
+      "width": 2
+    },
+    "move": {
+      "enable": true,
+      "speed": 5,
+      "direction": "top",
+      "random": true,
+      "straight": true,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+</html>
